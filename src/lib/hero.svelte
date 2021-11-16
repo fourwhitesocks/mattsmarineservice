@@ -1,4 +1,6 @@
 <script>
+	//import { toggle_class } from 'svelte/internal';     this magically appeared
+
 	import Header from './header.svelte';
 </script>
 
@@ -19,7 +21,7 @@
 					<polygon points="50,0 100,0 50,100 0,100" />
 				</svg>
 
-				<div>
+				<div id="close">
 					<div class="relative pt-6 px-4 sm:px-6 lg:px-8">
 						<nav
 							class="relative flex items-center justify-between sm:h-24 lg:justify-start"
@@ -63,17 +65,22 @@
 											/></svg
 										>
 									</a>
+
 									<div class="-mr-2 flex items-center md:hidden">
 										<button
 											type="button"
 											class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+											x-on:click="toggle"
+											_mousedown="if (open) $event.preventDefault()"
 											aria-expanded="false"
+											:aria-expanded="open.toString()"
 										>
 											<span class="sr-only">Open main menu</span>
-											<!-- Heroicon name: outline/menu -->
+											<!-- Heroicon name: outline/menu 3 lines-->
 
 											<svg
 												class="h-6 w-6"
+												x-description="Heroicon name: outline/menu"
 												xmlns="http://www.w3.org/2000/svg"
 												fill="none"
 												viewBox="0 0 24 24"
@@ -91,7 +98,7 @@
 									</div>
 								</div>
 							</div>
-							<!--nav for larger devices start here-->
+							<!--nav for larger devices start here ?-->
 							<div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
 								<a href="/contact" class="font-medium text-gray-500 hover:text-gray-900">Contact</a>
 
@@ -99,8 +106,6 @@
 								>
 
 								<a href="/" class="font-medium text-gray-500 hover:text-gray-900">HOME</a>
-
-								<a href="#" class="font-medium text-gray-500 hover:text-gray-900">Company</a>
 							</div>
 						</nav>
 					</div>
@@ -133,11 +138,13 @@
 									<button
 										type="button"
 										class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+										x-on:click="toggle"
 									>
 										<span class="sr-only">Close main menu</span>
-										<!-- Heroicon name: outline/x -->
+										<!-- Heroicon name: outline/x for close -->
 										<svg
 											class="h-6 w-6"
+											x-description="Heroicon name: outline/x"
 											xmlns="http://www.w3.org/2000/svg"
 											fill="none"
 											viewBox="0 0 24 24"
@@ -172,19 +179,7 @@
 									class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
 									>Marketplace</a
 								>
-
-								<a
-									href="#"
-									class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-									>Company</a
-								>
 							</div>
-							<a
-								href="#"
-								class="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100"
-							>
-								Log in
-							</a>
 						</div>
 					</div>
 				</div>
@@ -243,6 +238,6 @@
 	}*/
 
 	.wtf-logo {
-		width: 150px;
+		width: 60px;
 	}
 </style>
