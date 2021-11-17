@@ -70,7 +70,7 @@
 										<button
 											type="button"
 											class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
-											x-on:click="toggle"
+											on:click={toggle}
 											_mousedown="if (open) $event.preventDefault()"
 											aria-expanded="false"
 											:aria-expanded="open.toString()"
@@ -138,7 +138,7 @@
 									<button
 										type="button"
 										class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
-										x-on:click="toggle"
+										on:click={toggle}
 									>
 										<span class="sr-only">Close main menu</span>
 										<!-- Heroicon name: outline/x for close -->
