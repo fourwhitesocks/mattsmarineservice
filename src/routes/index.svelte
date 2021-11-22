@@ -14,7 +14,7 @@
 	<Hero />
 </div>
 
-<div class="bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 ...">
+<div class="bg-blue-100" id="services">
 	<section class="w-full  max-w-5xl mx-auto py-16">
 		<h2 class="text-5xl font-extrabold text-center pb-12">Services</h2>
 		<ul class="text-center">
@@ -80,5 +80,12 @@
 <style>
 	h2 {
 		font-family: Montserrat;
+	}
+
+	#services {
+		background-image: url(https://cdn-chlgc.nitrocdn.com/qBdMNnfQFoplKNRrBeVyiEKEdVvXmccI/assets/static/optimized/rev-7a25d0f/wp-content/uploads/2021/06/bbb-background-op.png);
+		background-repeat: no-repeat;
+		background-size: 300px;
+		background-position: 10% 3%;
 	}
 </style>
