@@ -17,8 +17,8 @@
 		<div class="flex justify-between">
 			<div class="flex space-x-4">
 				<!-- logo -->
-				<div>
-					<a href="#" class="flex items-center py-5 px-2 text-gray-700 hover:text-gray-900">
+				<div class="flex">
+					<a href="/" class="flex items-center py-5 px-2 text-gray-700 hover:text-gray-900">
 						<svg
 							class="h-6 w-6 mr-1 text-blue-400"
 							xmlns="http://www.w3.org/2000/svg"
@@ -33,8 +33,15 @@
 								d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"
 							/>
 						</svg>
-						<span class="font-bold">Better Dev</span>
+						<span class="font-bold">MATTS MARINE SERVICE</span>
 					</a>
+
+					<!-- from repl toggle a class -->
+					<button class="md:hidden" on:click={() => (active = !active)}>
+						{active ? 'Close' : 'Open'} Menu
+
+						<aside class:active><a href="#">link</a></aside>
+					</button>
 				</div>
 
 				<!-- primary nav -->
@@ -46,7 +53,7 @@
 
 			<!-- secondary nav -->
 			<div class="hidden md:flex items-center space-x-1">
-				<a href="" class="py-5 px-3">Login</a>
+				<a href="/contact" class="py-5 px-3">Contact</a>
 				<a
 					href=""
 					class="py-2 px-3 bg-yellow-400 hover:bg-yellow-300 text-yellow-900 hover:text-yellow-800 rounded transition duration-300"
@@ -82,13 +89,6 @@
 		<a href="#" class="block py-2 px-4 text-sm hover:bg-gray-200">Features</a>
 		<a href="#" class="block py-2 px-4 text-sm hover:bg-gray-200">Pricing</a>
 	</div>
-
-	<!-- from repl toggle a class -->
-	<button class="md:hidden" on:click={() => (active = !active)}>
-		{active ? 'Close' : 'Open'} Menu
-
-		<aside class:active><a href="#">link</a></aside>
-	</button>
 </nav>
 
 <style>

@@ -1,5 +1,11 @@
 
 @tailwind base;
+
+
+body {
+	font-family: Montserrat;
+}
+
 @tailwind components;
 @tailwind utilities;
 
