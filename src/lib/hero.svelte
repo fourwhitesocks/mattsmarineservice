@@ -2,6 +2,7 @@
 	//import { toggle_class } from 'svelte/internal';     this magically appeared
 
 	import Header from './header.svelte';
+	import Nav from '$lib/Nav.svelte';
 </script>
 
 <!-- Hero rm 7xl in first div-->
@@ -28,11 +29,11 @@
 				>
 					<div class="sm:text-center lg:text-left">
 						<h1
-							class="text-4xl text-left tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"
+							class="text-4xl text-left tracking-tight font-extrabold text-blue-900 sm:text-5xl md:text-6xl"
 						>
 							MATTS MARINE SERVICE
 						</h1>
-						<h2 class="mt-5 block text-2xl font-extrabold text-indigo-600">
+						<h2 class="mt-5 block text-2xl font-extrabold text-blue-900">
 							Serving the Great Lakes
 						</h2>
 						<p
@@ -42,7 +43,7 @@
 							commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
 						</p>
 
-						<p2 class="mt-5 inline-block text-2xl font-extrabold text-indigo-600">
+						<p2 class="mt-5 inline-block text-2xl font-extrabold text-blue-900">
 							<!-- phone icon -->
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
@@ -59,17 +60,15 @@
 							<div class="rounded-md shadow">
 								<a
 									href="#"
-									class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
-								>
-									Services
+									class="hover:no-underline transition duration-300 w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-900  hover:bg-blue-800 md:py-4 md:text-lg md:px-10"
+									><span class="link link-underline link-underline-black">Services</span>
 								</a>
 							</div>
 							<div class="mt-3 sm:mt-0 sm:ml-3">
 								<a
 									href="/contact"
-									class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
-								>
-									Questions
+									class="hover:no-underline transition duration-300 w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-900 bg-blue-100 hover:bg-blue-200 md:py-4 md:text-lg md:px-10"
+									><span class="link link-underline link-underline-lite">Questions</span>
 								</a>
 							</div>
 						</div>
@@ -92,7 +91,25 @@
 		background-image: url('https://images.unsplash.com/photo-1508776781619-132e6a483b60?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
 	}*/
 
-	.wtf-logo {
-		width: 60px;
+	.link-underline {
+		border-bottom-width: 0;
+		background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
+		background-size: 0 3px;
+		background-position: 0 100%;
+		background-repeat: no-repeat;
+		transition: background-size 0.5s ease-in-out;
+	}
+
+	.link-underline-black {
+		background-image: linear-gradient(transparent, transparent), linear-gradient(#ced2dd, #ced2dd);
+	}
+
+	.link-underline-lite {
+		background-image: linear-gradient(transparent, transparent), linear-gradient(#051d5f, #051d5f);
+	}
+
+	.link-underline:hover {
+		background-size: 100% 3px;
+		background-position: 0 100%;
 	}
 </style>

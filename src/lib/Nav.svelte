@@ -18,7 +18,10 @@
 			<div class="flex space-x-4">
 				<!-- logo -->
 				<div class="flex">
-					<a href="/" class="flex items-center py-5 px-2 text-gray-700 hover:text-gray-900">
+					<a
+						href="/"
+						class="flex items-center py-5 px-2 text-blue-900 hover:text-blue-800 hover:no-underline"
+					>
 						<svg
 							class="rotate-logo"
 							width="75"
@@ -61,7 +64,9 @@
 							</g>
 						</svg>
 
-						<span class="font-bold">MATTS MARINE SERVICE</span>
+						<span class="font-bold text-lg px-2 link link-underline link-underline-black"
+							>MATTS MARINE SERVICE</span
+						>
 					</a>
 
 					<!-- from repl toggle a class -->
@@ -72,20 +77,19 @@
 					</button>
 				</div>
 
-				<!-- primary nav -->
+				<!-- primary nav 
 				<div class="hidden md:flex items-center space-x-1">
 					<a href="#" class="py-5 px-3 text-gray-700 hover:text-gray-900">Features</a>
 					<a href="#" class="py-5 px-3 text-gray-700 hover:text-gray-900">Pricing</a>
-				</div>
+				</div> -->
 			</div>
 
 			<!-- secondary nav -->
 			<div class="hidden md:flex items-center space-x-1">
-				<a href="/contact" class="py-5 px-3">Contact</a>
 				<a
-					href=""
-					class="py-2 px-3 bg-yellow-400 hover:bg-yellow-300 text-yellow-900 hover:text-yellow-800 rounded transition duration-300"
-					>Signup</a
+					href="/contact"
+					class="py-2 px-3 text-white bg-blue-900  hover:bg-blue-800 hover:no-underline rounded transition duration-300"
+					><span class="link link-underline link-underline-black">Contact</span></a
 				>
 			</div>
 
@@ -120,6 +124,23 @@
 </nav>
 
 <style>
+	.link-underline {
+		border-bottom-width: 0;
+		background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
+		background-size: 0 3px;
+		background-position: 0 100%;
+		background-repeat: no-repeat;
+		transition: background-size 0.5s ease-in-out;
+	}
+
+	.link-underline-black {
+		background-image: linear-gradient(transparent, transparent), linear-gradient(#ced2dd, #ced2e2);
+	}
+
+	.link-underline:hover {
+		background-size: 100% 3px;
+		background-position: 0 100%;
+	}
 	aside {
 		position: absolute;
 		left: -500px;
@@ -144,13 +165,13 @@
 			-webkit-transform: rotate(0deg);
 		}
 		25% {
-			-webkit-transform: rotate(3deg);
+			-webkit-transform: rotate(4deg);
 		}
 		50% {
 			-webkit-transform: rotate(0deg);
 		}
 		75% {
-			-webkit-transform: rotate(-3deg);
+			-webkit-transform: rotate(-4deg);
 		}
 		100% {
 			-webkit-transform: rotate(0deg);

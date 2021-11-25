@@ -1,6 +1,6 @@
 <script>
 	import Header from '$lib/header.svelte';
-	import Hero from '$lib/hero.svelte';
+	import Hero from '$lib/Hero.svelte';
 </script>
 
 <svelte:head>
@@ -58,8 +58,10 @@
 	</svg>
 
 	<section class="w-full  max-w-5xl mx-auto py-16">
-		<h2 class="text-5xl text-bold font-extrabold text-center pb-12">Services</h2>
-		<ul class="text-center pb-12">
+		<h2 class="text-5xl text-bold tracking-tight font-extrabold text-center pb-12 text-blue-900">
+			SERVICES
+		</h2>
+		<ul class="text-center pb-12 text-gray-900">
 			<li class="text-4xl bold pb-6">Electrical</li>
 			<li class="text-4xl bold pb-6">Electronics Installation</li>
 			<li class="text-4xl bold pb-6">Plumbing</li>
@@ -285,6 +287,23 @@
 		background-position: 10% 3%;
 	} */
 
+	.link-underline {
+		border-bottom-width: 0;
+		background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
+		background-size: 0 3px;
+		background-position: 0 100%;
+		background-repeat: no-repeat;
+		transition: background-size 0.5s ease-in-out;
+	}
+
+	.link-underline-black {
+		background-image: linear-gradient(transparent, transparent), linear-gradient(#f2c, #f2c);
+	}
+
+	.link-underline:hover {
+		background-size: 100% 3px;
+		background-position: 0 100%;
+	}
 	svg {
 		z-index: -2;
 	}
