@@ -1,1 +1,1 @@
-<footer class="footer">© Digital Pain Killers</footer>
+<footer class="footer m-36">© Digital Pain Killers</footer>

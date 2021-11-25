@@ -280,12 +280,13 @@
 </div>
   -->
 <style>
-	/* #services {
-		background-image: url('./static/mmservice-logo-figma.svg');
+	#services {
+		background-image: url('./static/bottom-wave.svg');
 		background-repeat: no-repeat;
-		background-size: 500px;
-		background-position: 10% 3%;
-	} */
+
+		background-position: 50% 108%;
+		width: 100%;
+	}
 
 	.link-underline {
 		border-bottom-width: 0;
