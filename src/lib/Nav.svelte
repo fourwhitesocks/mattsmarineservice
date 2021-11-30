@@ -16,7 +16,7 @@
 	<div class="max-w-6xl mx-auto px-4">
 		<div class="flex justify-between">
 			<div class="flex space-x-4">
-				<!-- logo -->
+				<!-- logo matts logo sat main groups op version-->
 				<div class="flex">
 					<a
 						href="/"
@@ -69,10 +69,23 @@
 						>
 					</a>
 
-					<!-- from repl toggle a class -->
+					<!-- from repl toggle a class 11:30 just added svg on line 75-->
 					<button class="md:hidden" on:click={() => (active = !active)}>
-						{active ? 'Close' : 'Open'} Menu
-
+						{active ? 'Close' : 'Open'}
+						<svg
+							class="w-6 h-6"
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke="currentColor"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+								d="M4 6h16M4 12h16M4 18h16"
+							/>
+						</svg>
 						<aside class:active><a href="#">link</a></aside>
 					</button>
 				</div>
@@ -145,7 +158,7 @@
 		position: absolute;
 		left: -500px;
 		transition: all 0.5s;
-		height: 500px;
+		height: 100vh;
 		/*width: 100%; */
 		padding: 20px;
 		border: 1px solid #ddd;
@@ -155,26 +168,5 @@
 	.active {
 		left: 0px;
 		width: 100%;
-	}
-	.rotate-logo {
-		-webkit-animation: rotation 4s infinite linear;
-	}
-
-	@-webkit-keyframes rotation {
-		0% {
-			-webkit-transform: rotate(0deg);
-		}
-		25% {
-			-webkit-transform: rotate(4deg);
-		}
-		50% {
-			-webkit-transform: rotate(0deg);
-		}
-		75% {
-			-webkit-transform: rotate(-4deg);
-		}
-		100% {
-			-webkit-transform: rotate(0deg);
-		}
 	}
 </style>

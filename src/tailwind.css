@@ -7,6 +7,48 @@ body {
 }
 
 @tailwind components;
+
+.link-underline {
+	border-bottom-width: 0;
+	background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
+	background-size: 0 3px;
+	background-position: 0 100%;
+	background-repeat: no-repeat;
+	transition: background-size 0.5s ease-in-out;
+}
+
+.link-underline-black {
+	background-image: linear-gradient(transparent, transparent), linear-gradient(#f2c, #f2c);
+}
+
+.link-underline:hover {
+	background-size: 100% 3px;
+	background-position: 0 100%;
+}
+	
+
+.rotate-logo {
+	-webkit-animation: rotation 4s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+	0% {
+		-webkit-transform: rotate(0deg);
+	}
+	25% {
+		-webkit-transform: rotate(3deg);
+	}
+	50% {
+		-webkit-transform: rotate(0deg);
+	}
+	75% {
+		-webkit-transform: rotate(-3deg);
+	}
+	100% {
+		-webkit-transform: rotate(0deg);
+	}
+}
+
 @tailwind utilities;
 
 :root {
