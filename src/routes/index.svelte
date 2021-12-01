@@ -236,23 +236,44 @@
 </div>
 
 <div class="bg-graphic">
-	<div class="w-full  max-w-6xl mx-auto py-16 bg-graphic">
-		<h3 class="text-5xl text-bold tracking-tight font-extrabold text-center text-blue-900">
+	<div class="w-full  max-w-6xl mx-auto pt-16 pb-32 bg-graphic">
+		<h3
+			class=" md:text-4xl lg:text-5xl text-bold tracking-tight font-extrabold text-center text-blue-900"
+		>
 			AFFILIATIONS & CREDENTIALS
 		</h3>
 
-		<div class="credentials grid grid-cols-3 gap-28 py-12 items-center">
-			<div class="text-center flex items-center justify-center flex-col">
+		<div
+			class="credentials grid sm:grid-cols-1 sm:gap-14 md:grid-cols-3 md:gap-8 md:px-12 items-center"
+		>
+			<div class="text-center flex items-center justify-center flex-col px-16">
 				<h3 class="mt-5 block text-3xl bold text-gray-900 mb-5">ABYC Member Company</h3>
-				<img src="./static/ABYC-member-logo.png" alt="ABCY Member Logo" />
+				<a href="https://abycinc.org/" target="_blank" rel="noopener noreferrer">
+					<img src="./static/ABYC-member-logo.png" alt="ABCY Member Logo" /></a
+				>
+			</div>
+
+			<div class="text-center flex items-center justify-center flex-col">
+				<h3 class="mt-5 block text-3xl bold text-gray-900 mb-5">ABYC Master Technician</h3>
+
+				<a href="https://abycinc.org/page/Directories" target="_blank" rel="noopener noreferrer">
+					<img
+						src="./static/abyc-master-tech-sm.jpg"
+						width="200px"
+						alt="ABCY Master Technician"
+						class="px-4"
+					/></a
+				>
+
+				<h4 class="mt-5 text-xl bold">Marine Systems</h4>
+				<h4 class="text-xl bold">Marine Electrical</h4>
+				<h4 class="text-xl bold">Marine Corrosion</h4>
 			</div>
 			<div class="text-center flex items-center justify-center flex-col">
 				<h3 class="mt-5 block text-3xl bold text-gray-900 mb-5">Garmin Certified Installer</h3>
-				<img src="./static/garmin-d.png" alt="Garmin Certified Installer" />
-			</div>
-			<div class="text-center flex items-center justify-center flex-col">
-				<h3 class="mt-5 block text-3xl bold text-gray-900 mb-5">ABYC Master Technician</h3>
-				<img src="./static/abyc-master-tech-sm.jpg" width="200px" alt="ABCY Master Technician" />
+				<a href="https://www.garmin.com/en-US/c/marine/" target="_blank" rel="noopener noreferrer">
+					<img src="./static/garmin-d.png" alt="Garmin Certified Installer" /></a
+				>
 			</div>
 		</div>
 	</div>
@@ -319,7 +340,7 @@
 	.bg-graphic {
 		background-image: url('./static/bottom-wave.svg');
 		background-repeat: no-repeat;
-		background-position: 50% 105%;
+		background-position: 50% 135%;
 	}
 
 	.vert-move {
