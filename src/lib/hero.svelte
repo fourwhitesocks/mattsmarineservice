@@ -6,7 +6,7 @@
 </script>
 
 <!-- Hero rm 7xl in first div-->
-<section class="p-10" id="scroll-to-here">
+<section class="pl-10">
 	<div class="relative bg-white overflow-hidden">
 		<div class="mx-auto">
 			<div
@@ -23,7 +23,8 @@
 					<polygon points="50,0 100,0 50,100 0,100" />
 				</svg>
 				<!-- end polygon svg -->
-
+				<!-- where the nav was originally -->
+				<div class="py-10" />
 				<main
 					class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"
 				>

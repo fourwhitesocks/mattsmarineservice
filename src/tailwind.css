@@ -1,12 +1,18 @@
 
 @tailwind base;
 
+@tailwind components;
+
+@tailwind utilities;
+
+html {
+	scroll-behavior: smooth;
+}
 
 body {
 	font-family: Montserrat;
+	
 }
-
-@tailwind components;
 
 .link-underline {
 	border-bottom-width: 0;
@@ -48,8 +54,6 @@ body {
 		-webkit-transform: rotate(0deg);
 	}
 }
-
-@tailwind utilities;
 
 :root {
 	font-family: Arial, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
@@ -113,8 +117,12 @@ p {
 }
 
 a {
-	color: var(--accent-color);
+	color: var(--primary-color);
 	text-decoration: none;
+}
+
+.footer {
+	color: var(--primary-color);
 }
 
 a:hover {

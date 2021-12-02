@@ -1,4 +1,4 @@
-<footer class="footer bg-blue-900 text-white px-4 py-12 flex justify-around">
+<footer class="footer bg-blue-900 px-4 py-12 flex justify-around">
 	© Digital Pain Killers
 
 	<a href="#scroll-to-here">
@@ -18,8 +18,4 @@
 </footer>
 
 <style>
-	/* a #scroll-to-here {
-		color: --tertiary-color;
-		cursor: pointer;
-	} */
 </style>

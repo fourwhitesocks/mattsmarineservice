@@ -238,7 +238,7 @@
 <div class="bg-graphic">
 	<div class="w-full  max-w-6xl mx-auto pt-16 pb-32 bg-graphic">
 		<h3
-			class=" md:text-4xl lg:text-5xl text-bold tracking-tight font-extrabold text-center text-blue-900"
+			class=" md:text-4xl lg:text-5xl text-bold tracking-tight font-extrabold text-center text-blue-900 pb-8"
 		>
 			AFFILIATIONS & CREDENTIALS
 		</h3>

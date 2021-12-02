@@ -12,7 +12,7 @@
 </script>
 
 <!-- navbar goes here -->
-<nav class="bg-gray-100 drop-shadow">
+<nav class="bg-gray-100 drop-shadow" id="scroll-to-here">
 	<div class="max-w-6xl mx-auto px-4">
 		<div class="flex justify-between">
 			<div class="flex space-x-4">
