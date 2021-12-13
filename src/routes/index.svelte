@@ -10,7 +10,7 @@
 
 <Header />
 
-<div class="p-10 negative">
+<div class="p-10">
 	<Hero />
 </div>
 

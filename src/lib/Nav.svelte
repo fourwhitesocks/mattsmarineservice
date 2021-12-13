@@ -86,7 +86,14 @@
 								d="M4 6h16M4 12h16M4 18h16"
 							/>
 						</svg>
-						<aside class:active><a href="#">link</a></aside>
+						<!-- aside for mobile menu -->
+						<aside class:active>
+							<a
+								href="/contact"
+								class="hover:no-underline transition duration-300 w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-900 bg-blue-100 hover:bg-blue-200 md:py-4 md:text-lg md:px-10"
+								><span class="link link-underline link-underline-lite">Questions</span>
+							</a>
+						</aside>
 					</button>
 				</div>
 
