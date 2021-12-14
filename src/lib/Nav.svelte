@@ -8,7 +8,14 @@
 	//menu.classList.toggle('hidden');
 	//});
 
-	let active = false;
+	import { fly } from 'svelte/transition';
+
+	import AnimatedHamburger from '$lib/AnimatedHamburger.svelte';
+
+	export let open = false;
+	export let onClick = () => {
+		open = !open;
+	};
 </script>
 
 <!-- navbar goes here -->
@@ -69,7 +76,7 @@
 						>
 					</a>
 
-					<!-- from repl toggle a class 11:30 just added svg on line 75-->
+					<!-- from repl toggle a class 11:30 just added svg on line 75
 					<button class="md:hidden" on:click={() => (active = !active)}>
 						{active ? 'Close' : 'Open'}
 						<svg
@@ -86,15 +93,9 @@
 								d="M4 6h16M4 12h16M4 18h16"
 							/>
 						</svg>
-						<!-- aside for mobile menu -->
-						<aside class:active>
-							<a
-								href="/contact"
-								class="hover:no-underline transition duration-300 w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-900 bg-blue-100 hover:bg-blue-200 md:py-4 md:text-lg md:px-10"
-								><span class="link link-underline link-underline-lite">Questions</span>
-							</a>
-						</aside>
-					</button>
+						<!-- aside for mobile menu 
+						<aside class:active />
+					</button>-->
 				</div>
 
 				<!-- primary nav 
@@ -104,7 +105,7 @@
 				</div> -->
 			</div>
 
-			<!-- secondary nav -->
+			<!-- secondary nav on right side -->
 			<div class="hidden md:flex items-center space-x-1">
 				<a
 					href="/contact"
@@ -133,8 +134,24 @@
 					</svg>
 				</button>
 			</div>-->
+
+			<!-- Animated Burger one-->
+
+			<AnimatedHamburger {open} {onClick} />
 		</div>
 	</div>
+
+	{#if open}
+		<div>
+			<div
+				class="flex flex-col py-1 gap-5 items-center"
+				transition:fly={{ y: -200, duration: 400 }}
+			>
+				<a href="/">Home</a>
+				<a href="/contact">Contact</a>
+			</div>
+		</div>
+	{/if}
 
 	<!-- mobile menu -->
 	<div class="mobile-menu hidden md:hidden">
