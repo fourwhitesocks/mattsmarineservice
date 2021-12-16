@@ -59,7 +59,7 @@
 			</g>
 		</g>
 	</svg>
-	<section class="w-full  max-w-5xl mx-auto py-16">
+	<section class="w-full  max-w-5xl mx-auto py-16 px-8">
 		<h2 class="text-5xl text-bold tracking-tight font-extrabold text-center pb-12 text-blue-900">
 			SERVICES
 		</h2>
@@ -244,14 +244,38 @@
 			class="credentials grid sm:grid-cols-1 sm:gap-14 md:grid-cols-3 md:gap-8 md:px-12 items-center"
 		>
 			<div class="text-center flex items-center justify-center flex-col px-16">
-				<h3 class="mt-5 block text-3xl bold text-gray-900 mb-5">ABYC Member Company</h3>
-				<a href="https://abycinc.org/" target="_blank" rel="noopener noreferrer">
-					<img src="./static/ABYC-member-logo.png" alt="ABCY Member Logo" /></a
+				<a
+					href="https://www.emsics.com/emsi-awarded-us-coast-guard-national-ics-training-contract/"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="transition duration-300 "
+					><h3
+						class="mt-5 block text-3xl bold text-gray-900 mb-5 link link-underline link-underline-lite"
+					>
+						Licensed 100 GRT Master Captain Power & Sail
+					</h3>
+				</a>
+				<a
+					href="https://www.emsics.com/emsi-awarded-us-coast-guard-national-ics-training-contract//"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<img src="./USCG-logo-428x400-op.jpg" alt="ABCY Member Logo" /></a
 				>
 			</div>
 
 			<div class="text-center flex items-center justify-center flex-col">
-				<h3 class="mt-5 block text-3xl bold text-gray-900 mb-5">ABYC Master Technician</h3>
+				<a
+					href="https://abycinc.org/page/Directories"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="transition duration-300"
+					><h3
+						class="mt-5 block text-3xl bold text-gray-900 mb-5 link link-underline link-underline-lite"
+					>
+						ABYC Master Technician
+					</h3></a
+				>
 
 				<a href="https://abycinc.org/page/Directories" target="_blank" rel="noopener noreferrer">
 					<img
@@ -267,65 +291,36 @@
 				<h4 class="text-xl bold">Marine Corrosion</h4>
 			</div>
 			<div class="text-center flex items-center justify-center flex-col">
-				<h3 class="mt-5 block text-3xl bold text-gray-900 mb-5">Garmin Certified Installer</h3>
+				<a
+					href="https://www.garmin.com/en-US/c/marine/"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="transition duration-300"
+					><h3
+						class="mt-5 block text-3xl bold text-gray-900 mb-5 link link-underline link-underline-lite"
+					>
+						Garmin Certified Installer
+					</h3></a
+				>
 				<a href="https://www.garmin.com/en-US/c/marine/" target="_blank" rel="noopener noreferrer">
-					<img src="./static/garmin-d.png" alt="Garmin Certified Installer" /></a
+					<img src="./garmin-d.png" alt="Garmin Certified Installer" /></a
 				>
 			</div>
 		</div>
 	</div>
 </div>
 
-<!--<div class="container w-full  max-w-5xl mx-auto py-14">
-	<section>
-		<h2 class="text-5xl bold text-center pb-12 ">Services</h2>
-		<div class="services flex gap-x-9">
-			<p class="gap-x-9">
-				Incididunt ullamco ad dolor sunt qui nisi pariatur irure cillum dolor minim labore aliquip
-				enim. Nulla Lorem incididunt proident occaecat consectetur non sint. Anim eu duis anim culpa
-				dolore sunt ex veniam laborum veniam sint qui elit amet. Aliquip fugiat ullamco velit dolore
-				et occaecat fugiat nulla. Sunt ipsum velit commodo excepteur exercitation ullamco eiusmod
-				consequat consequat dolor id. Excepteur ut labore laboris deserunt labore occaecat. Ad
-				ullamco labore eiusmod amet enim culpa eiusmod id proident exercitation sint qui do culpa.
-				Ipsum dolor incididunt velit amet ea occaecat excepteur minim mollit in consequat veniam
-				aute. Ea qui incididunt ea fugiat. Consectetur dolore sint proident ea proident do in
-				laboris sint et laborum id consectetur eu. Anim officia sunt ex Lorem aliquip nulla velit
-				commodo ut aute reprehenderit Lorem laborum mollit. Velit aliquip culpa eu deserunt mollit
-				excepteur sunt. Ea non fugiat sint amet dolore enim exercitation anim in dolore. Est ea
-				dolore pariatur cupidatat ad esse sit eu commodo excepteur id sunt reprehenderit officia.
-				Quis consequat excepteur et in dolore. Cupidatat culpa nostrud Lorem sit mollit. Laboris
-				deserunt ea in ipsum consectetur enim dolor anim proident ex commodo sint. Dolore mollit
-				esse commodo sint adipisicing enim sit et. Labore minim nulla ea excepteur sunt consequat
-				commodo exercitation. Fugiat do mollit esse nulla reprehenderit pariatur. Ea velit proident
-				veniam aute. Exercitation duis elit magna reprehenderit minim veniam consequat amet dolor
-				quis. Incididunt commodo sunt est est ad.
-			</p>
-
-			<p class="gap-x-9">
-				Reprehenderit cupidatat ipsum proident pariatur esse amet veniam dolore voluptate
-				adipisicing proident. Duis tempor nostrud aliquip dolore consectetur ipsum excepteur
-				consectetur tempor eu. Labore veniam nulla consequat non et adipisicing adipisicing in sint
-				dolor officia in eu. Deserunt ex reprehenderit cillum exercitation minim non fugiat
-				consequat eiusmod eu consequat nisi. Consectetur proident ea fugiat aliqua et aliquip veniam
-				occaecat labore aliquip. Officia consectetur labore cupidatat consequat quis minim duis
-				officia fugiat cillum. Sunt exercitation consectetur aute anim et amet reprehenderit ipsum
-				occaecat Lorem et veniam. Velit labore in eu est in aute. Laborum aliquip eu ullamco non
-				esse consequat dolor sunt irure qui. Ipsum non tempor labore cillum est proident. Qui ipsum
-				id aliqua culpa do exercitation anim. Veniam consectetur pariatur irure sit eu anim eiusmod.
-				Id nulla cillum fugiat eiusmod irure non amet aliqua non magna mollit adipisicing nulla.
-				Laborum enim reprehenderit aute dolore occaecat aliqua consequat nulla amet aliqua esse.
-				Minim ea ea consequat est adipisicing ipsum. Magna minim adipisicing labore adipisicing
-				eiusmod tempor. Non mollit pariatur aliqua aute sunt aliquip ex fugiat fugiat. Occaecat
-				cupidatat veniam pariatur nostrud veniam. Incididunt elit aute anim enim do ipsum. Aliqua id
-				adipisicing eiusmod laborum adipisicing veniam commodo proident in duis. Adipisicing officia
-				minim et magna elit et. Ad veniam mollit quis dolore aliquip Lorem labore adipisicing.
-				Occaecat minim eu qui laboris excepteur veniam aliqua voluptate minim proident.
-			</p>
-		</div>
-	</section>
-</div>
-  -->
 <style>
+	@media (min-width: 768px) {
+		#service,
+		#anchor,
+		#extra-skinny-circle,
+		#outside-circle,
+		#matts-marine {
+			fill-opacity: 0.01;
+		}
+	}
+
 	#service,
 	#anchor,
 	#extra-skinny-circle,
@@ -334,9 +329,10 @@
 		fill-opacity: 0.08;
 	}
 
+	/*
 	.negative {
 		z-index: -10;
-	}
+	} */
 
 	#services {
 		background-color: #dbeafe;

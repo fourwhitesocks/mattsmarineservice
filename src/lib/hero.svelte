@@ -24,10 +24,8 @@
 				</svg>
 				<!-- end polygon svg -->
 				<!-- where the nav was originally -->
-				<div class="py-10" />
-				<main
-					class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"
-				>
+				<div class="md:py-10" />
+				<main class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 xl:mt-28">
 					<div class="text-center lg:text-left">
 						<h1
 							class="text-4xl tracking-tight font-extrabold text-blue-900 sm:text-5xl md:text-6xl"
@@ -60,7 +58,7 @@
 						<div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
 							<div class="rounded-md shadow">
 								<a
-									href="#"
+									href="#services"
 									class="hover:no-underline transition duration-300 w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-900  hover:bg-blue-800 md:py-4 md:text-lg md:px-10"
 									><span class="link link-underline link-underline-black">Services</span>
 								</a>
@@ -80,7 +78,7 @@
 		<div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
 			<img
 				class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-				src="./static/blessed-be-middle-bass.jpg"
+				src="./blessed-be-middle-bass.jpg"
 				alt=""
 			/>
 		</div>
@@ -88,29 +86,4 @@
 </section>
 
 <style>
-	/*.bg-dunes {
-		background-image: url('https://images.unsplash.com/photo-1508776781619-132e6a483b60?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
-	}*/
-
-	.link-underline {
-		border-bottom-width: 0;
-		background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
-		background-size: 0 3px;
-		background-position: 0 100%;
-		background-repeat: no-repeat;
-		transition: background-size 0.5s ease-in-out;
-	}
-
-	.link-underline-black {
-		background-image: linear-gradient(transparent, transparent), linear-gradient(#ced2dd, #ced2dd);
-	}
-
-	.link-underline-lite {
-		background-image: linear-gradient(transparent, transparent), linear-gradient(#051d5f, #051d5f);
-	}
-
-	.link-underline:hover {
-		background-size: 100% 3px;
-		background-position: 0 100%;
-	}
 </style>

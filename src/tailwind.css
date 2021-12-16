@@ -24,7 +24,11 @@ body {
 }
 
 .link-underline-black {
-	background-image: linear-gradient(transparent, transparent), linear-gradient(#f2c, #f2c);
+	background-image: linear-gradient(transparent, transparent), linear-gradient(#ced2dd, #ced2dd);
+}
+
+.link-underline-lite {
+	background-image: linear-gradient(transparent, transparent), linear-gradient(#051d5f, #051d5f);
 }
 
 .link-underline:hover {
@@ -116,18 +120,19 @@ p {
 	line-height: 1.5;
 }
 
+/*
 a {
 	color: var(--primary-color);
 	text-decoration: none;
-}
+} */
 
 .footer {
 	color: var(--primary-color);
 }
-
+/*
 a:hover {
 	text-decoration: underline;
-}
+} */
 
 h1 {
 	font-size: 2rem;
