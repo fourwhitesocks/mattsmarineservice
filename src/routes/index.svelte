@@ -353,7 +353,7 @@
 	}
 	@-webkit-keyframes mover {
 		0% {
-			transform: translateY(0);``
+			transform: translateY(0);
 		}
 		100% {
 			transform: translateY(-2px);
