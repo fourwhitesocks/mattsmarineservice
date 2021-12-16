@@ -1,5 +1,4 @@
 <script>
-	import Header from '$lib/header.svelte';
 	import Hero from '$lib/Hero.svelte';
 </script>
 
@@ -7,8 +6,6 @@
 	<!--alows head info on each page-->
 	<title>Matts Marine | Powerboat and sailboat marine services | Monroe, Mi</title>
 </svelte:head>
-
-<Header />
 
 <div class="p-10">
 	<Hero />

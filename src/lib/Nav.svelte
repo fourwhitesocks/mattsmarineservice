@@ -147,8 +147,14 @@
 				class="flex flex-col py-1 gap-5 items-center"
 				transition:fly={{ y: -200, duration: 400 }}
 			>
-				<a href="/">Home</a>
-				<a href="/contact">Contact</a>
+				<a
+					class="hover:no-underline transition duration-300 w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-900 bg-blue-100 hover:bg-blue-200 md:py-4 md:text-lg md:px-10"
+					href="/">Home</a
+				>
+				<a
+					class="hover:no-underline transition duration-300 w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-900  hover:bg-blue-800 md:py-4 md:text-lg md:px-10"
+					href="/contact">Contact</a
+				>
 			</div>
 		</div>
 	{/if}

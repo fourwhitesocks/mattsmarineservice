@@ -2,7 +2,7 @@
 <script>
 	//import Header from '../components/header.svelte';
 	import Nav from '$lib/Nav.svelte';
-	import Footer from '$lib/footer.svelte';
+	import Footer from '$lib/Footer.svelte';
 	import '../tailwind.css';
 </script>
 
