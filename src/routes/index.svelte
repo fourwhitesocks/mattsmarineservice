@@ -279,7 +279,7 @@
 
 				<a href="https://abycinc.org/page/Directories" target="_blank" rel="noopener noreferrer">
 					<img
-						src="./static/abyc-master-tech-sm.jpg"
+						src="./abyc-master-tech-sm.jpg"
 						width="200px"
 						alt="ABCY Master Technician"
 						class="px-4"
