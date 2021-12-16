@@ -342,7 +342,7 @@
 	}
 
 	.bg-graphic {
-		background-image: url('./bottom-wave.svg');
+		background-image: url('./static/bottom-wave.svg');
 		background-repeat: no-repeat;
 		background-position: 50% 135%;
 	}
