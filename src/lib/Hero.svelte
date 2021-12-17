@@ -6,7 +6,7 @@
 </script>
 
 <!-- Hero rm 7xl in first div-->
-<section class="pl-10">
+<section>
 	<div class="relative bg-white overflow-hidden">
 		<div class="mx-auto">
 			<div

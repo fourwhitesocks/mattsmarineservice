@@ -7,7 +7,7 @@
 	<title>Matts Marine | Powerboat and sailboat marine services | Monroe, Mi</title>
 </svelte:head>
 
-<div class="p-10">
+<div>
 	<Hero />
 </div>
 

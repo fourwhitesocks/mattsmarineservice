@@ -1,13 +1,4 @@
 <script>
-	// grab everything we need
-	//const btn = document.querySelector('button.mobile-menu-button');
-	//const menu = document.querySelector('.mobile-menu');
-
-	// add event listeners
-	//btn.addEventListener('click', () => {
-	//menu.classList.toggle('hidden');
-	//});
-
 	import { fly } from 'svelte/transition';
 
 	import AnimatedHamburger from '$lib/AnimatedHamburger.svelte';
@@ -23,7 +14,7 @@
 	<div class="max-w-6xl mx-auto px-4">
 		<div class="flex justify-between">
 			<div class="flex space-x-4">
-				<!-- logo matts logo sat main groups op version-->
+				<!-- logo matts logo -->
 				<div class="flex">
 					<a
 						href="/"
@@ -113,27 +104,6 @@
 					><span class="link link-underline link-underline-black">Contact</span></a
 				>
 			</div>
-
-			<!-- mobile button goes here this is the mobile nav from better.dev vid codepen
-			<div class="md:hidden flex items-center">
-				<button on:click={() => (hidden = !hidden)}>
-					{hidden}
-					<svg
-						class="w-6 h-6"
-						xmlns="http://www.w3.org/2000/svg"
-						fill="none"
-						viewBox="0 0 24 24"
-						stroke="currentColor"
-					>
-						<path
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							stroke-width="2"
-							d="M4 6h16M4 12h16M4 18h16"
-						/>
-					</svg>
-				</button>
-			</div>-->
 
 			<!-- Animated Burger one-->
 
