@@ -9,7 +9,7 @@
 
 <div>
 	<div class="relative pt-6 px-4 sm:px-6 lg:px-8">
-		<form name="contact" method="POST" data-netlify="true">
+		<form name="contact" method="POST" netlify>
 			<input type="hidden" name="form-name" value="contact" />
 			<p>
 				<label for="name">Name</label>
