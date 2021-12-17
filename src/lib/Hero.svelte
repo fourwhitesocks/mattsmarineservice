@@ -30,7 +30,7 @@
 						<h1
 							class="text-4xl tracking-tight font-extrabold text-blue-900 sm:text-5xl md:text-6xl"
 						>
-							MATTS MARINE SERVICE
+							MATT'S MARINE SERVICE
 						</h1>
 						<h2 class="mt-5 block text-2xl font-extrabold text-blue-900">
 							Serving the Great Lakes
