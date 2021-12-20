@@ -234,9 +234,7 @@
 
 <div class="bg-graphic">
 	<div class="w-full  max-w-6xl mx-auto pt-16 pb-32 bg-graphic">
-		<h3
-			class=" md:text-4xl lg:text-5xl text-bold tracking-tight font-extrabold text-center text-blue-900 pb-8"
-		>
+		<h3 class="text-4xl text-bold tracking-tight font-extrabold text-center text-blue-900 pb-8">
 			AFFILIATIONS & CREDENTIALS
 		</h3>
 
@@ -260,7 +258,7 @@
 					target="_blank"
 					rel="noopener noreferrer"
 				>
-					<img src="./USCG-logo-428x400-op.jpg" alt="ABCY Member Logo" /></a
+					<img src="./USCG-logo-428x400-op.jpg" alt="ABCY Member Logo" class="max-w-xs" /></a
 				>
 			</div>
 
