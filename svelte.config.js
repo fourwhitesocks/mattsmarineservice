@@ -1,10 +1,10 @@
 /** @type {import('@sveltejs/kit').Config} */
-import adapter from '@sveltejs/adapter-netlify'
-const config = {
+const adapter = require('@sveltejs/adapter-netlify');
+module.exports = {
+
 	kit: {
-		// hydrate the <div id="svelte"> element in src/app.html
-	
 		adapter: adapter(),
+		// hydrate the <div id="svelte"> element in src/app.html
 		target: '#svelte',
 		prerender: {
 			crawl: true,
@@ -12,8 +12,5 @@ const config = {
 			force: true,
 			pages: ['*'],
 		},
-		
-	}
+	},
 };
-
-export default config;
