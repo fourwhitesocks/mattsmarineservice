@@ -1,6 +1,7 @@
-<footer class="footer bg-blue-900 px-4 py-12 flex justify-around">
-	© Digital Pain Killers
+<footer class="footer bg-blue-900 px-4 py-12 flex justify-between">
+	<div>digitalpainkillers.com</div>
 
+	© Copyright 2021 Matt's Marine Service
 	<a href="#scroll-to-here">
 		<svg
 			xmlns="http://www.w3.org/2000/svg"

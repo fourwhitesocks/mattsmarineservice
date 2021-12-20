@@ -17,49 +17,84 @@
 </svelte:head>
 
 <div>
-	<div class="w-full  max-w-6xl mx-auto pt-16 pb-32">
+	<div class="p-10 max-6xl mx-auto">
 		<h1
 			class="text-4xl tracking-tight font-extrabold text-blue-900 sm:text-5xl md:text-6xl s-Zp10jLLCVhnZ"
 		>
 			Welcome! Questions?
 		</h1>
 
-		<p
-			class="pt-16 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
-		>
-			Send me a message or just say hello! <br /> Thank you for visting!
-		</p>
+		<div class="flex items-center pt-8">
+			<svg
+				xmlns="http://www.w3.org/2000/svg"
+				class="h-10 w-10 mr-4"
+				viewBox="0 0 20 20"
+				fill="#2e3191"
+			>
+				<path
+					fill-rule="evenodd"
+					d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
+					clip-rule="evenodd"
+				/>
+			</svg>
+			<p class="text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl md:text-xl lg:mx-0">
+				For quesions or quotes leave your contact information and I will get back to you!<br />
+			</p>
+		</div>
 
-		<section class="pt-16 pb-32">
-			<form name="contact" method="post" netlify netlify-honeypot="bot-field">
-				<input type="hidden" name="form-name" value="contact" />
-				<!-- <input type="text" name="bot-field" /> -->
+		<section>
+			<div class="mt-8 max-w-md">
+				<form
+					name="contact"
+					method="post"
+					netlify
+					netlify-honeypot="bot-field"
+					class="grid grid-cols-1 gap-6"
+				>
+					<input type="hidden" name="form-name" value="contact" />
+					<!-- <input type="text" name="bot-field" /> -->
 
-				<p class="pt-8">
-					<label>Your Name: <input type="text" name="name" /></label>
-				</p>
-				<p class="pt-8">
-					<label>Your Email: <input type="email" name="email" /></label>
-				</p>
-				<p class="pt-8">
-					<label>Message: <textarea name="message" /></label>
-				</p>
-				<p class="pt-8">
-					<button
-						type="submit"
-						class="py-2 px-3 text-white bg-blue-900 hover:bg-blue-800 hover:no-underline rounded transition duration-300"
-						>Send</button
-					>
-				</p>
-			</form>
+					<p class="pt-8 block">
+						<label
+							>Your Name: <input
+								type="text"
+								name="name"
+								class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+								placeholder=""
+							/></label
+						>
+					</p>
+					<p class="pt-8 block">
+						<label
+							>Your Email: <input
+								type="email"
+								name="email"
+								class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+								placeholder=""
+							/></label
+						>
+					</p>
+					<p class="pt-8 block">
+						<label
+							>Message: <textarea
+								name="message"
+								class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+								placeholder=""
+							/></label
+						>
+					</p>
+					<p class="pt-8 block">
+						<button
+							type="submit"
+							class="py-2 px-3 text-white bg-blue-900 hover:bg-blue-800 hover:no-underline rounded transition duration-300"
+							>Send</button
+						>
+					</p>
+				</form>
+			</div>
 		</section>
 	</div>
 </div>
 
 <style>
-	input,
-	textarea {
-		border: 1px solid #dedede;
-		line-height: 3;
-	}
 </style>

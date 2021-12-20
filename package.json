@@ -21,5 +21,8 @@
 		"svelte": "^3.42.6",
 		"tailwindcss": "^2.2.19"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@tailwindcss/forms": "^0.4.0"
+	}
 }

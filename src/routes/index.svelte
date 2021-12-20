@@ -258,7 +258,12 @@
 					target="_blank"
 					rel="noopener noreferrer"
 				>
-					<img src="./USCG-logo-428x400-op.jpg" alt="ABCY Member Logo" class="max-w-xs" /></a
+					<img
+						src="./USCG-logo-428x400-op.jpg"
+						alt="ABCY Member Logo"
+						width="200"
+						class="max-w-xs"
+					/></a
 				>
 			</div>
 
@@ -301,7 +306,7 @@
 					</h3></a
 				>
 				<a href="https://www.garmin.com/en-US/c/marine/" target="_blank" rel="noopener noreferrer">
-					<img src="./garmin-d.png" alt="Garmin Certified Installer" /></a
+					<img src="./garmin-d.png" alt="Garmin Certified Installer" width="200" /></a
 				>
 			</div>
 		</div>
@@ -324,7 +329,7 @@
 	#extra-skinny-circle,
 	#outside-circle,
 	#matts-marine {
-		fill-opacity: 0.08;
+		fill-opacity: 0.03;
 	}
 
 	/*
