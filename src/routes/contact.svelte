@@ -18,8 +18,7 @@
 		<p
 			class="pt-16 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
 		>
-			Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit
-			sunt amet fugiat veniam occaecat fugiat aliqua.
+			Send me a message or just say hello! <br /> Thank you for visting!
 		</p>
 
 		<section class="pt-16 pb-32">
