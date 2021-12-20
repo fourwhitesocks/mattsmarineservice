@@ -22,19 +22,18 @@
 		</p>
 
 		<section class="pt-16 pb-32">
-			<form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+			<form name="contact" method="post" netlify netlify-honeypot="bot-field">
 				<input type="hidden" name="form-name" value="contact" />
+				<!-- <input type="text" name="bot-field" /> -->
+
 				<p class="pt-8">
-					<label for="name">Name</label>
-					<input type="text" id="name" name="name" />
+					<label>Your Name: <input type="text" name="name" /></label>
 				</p>
 				<p class="pt-8">
-					<label for="email">Email</label>
-					<input type="text" id="email" name="email" />
+					<label>Your Email: <input type="email" name="email" /></label>
 				</p>
 				<p class="pt-8">
-					<label for="message">Message</label>
-					<textarea id="message" name="message" />
+					<label>Message: <textarea name="message" /></label>
 				</p>
 				<p class="pt-8">
 					<button
