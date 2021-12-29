@@ -78,8 +78,8 @@
 		<div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
 			<img
 				class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-				src="./blessed-be-middle-bass.jpg"
-				alt=""
+				src="./blessedbe-middlebass-1000-op.webp"
+				alt="A sailboat at a dock Middle Bass Island in a sunset"
 			/>
 		</div>
 	</div>
