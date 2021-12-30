@@ -3,8 +3,16 @@
 </script>
 
 <svelte:head>
-	<!--alows head info on each page-->
-	<title>Matts Marine | Powerboat and sailboat marine services | Monroe, Mi</title>
+	<title>Lake Erie Yacht deliveries, Powerboat sailboat marine services | Monroe, Mi</title>
+	<meta
+		name="description"
+		content="Yacht deliveries and professional captaining services.  Sailboat and powerboat upgrades and repairs serving the Great Lakes.  Questions?  734-536-1076"
+	/>
+	<meta
+		name="robots"
+		content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+	/>
+	<link rel="canonical" href="#" />
 </svelte:head>
 
 <div>

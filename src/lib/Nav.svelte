@@ -129,11 +129,11 @@
 		</div>
 	{/if}
 
-	<!-- mobile menu -->
+	<!-- mobile menu 
 	<div class="mobile-menu hidden md:hidden">
 		<a href="#" class="block py-2 px-4 text-sm hover:bg-gray-200">Features</a>
 		<a href="#" class="block py-2 px-4 text-sm hover:bg-gray-200">Pricing</a>
-	</div>
+	</div> -->
 </nav>
 
 <style>
@@ -153,20 +153,5 @@
 	.link-underline:hover {
 		background-size: 100% 3px;
 		background-position: 0 100%;
-	}
-	aside {
-		position: absolute;
-		left: -500px;
-		transition: all 0.5s;
-		height: 100vh;
-		/*width: 100%; */
-		padding: 20px;
-		border: 1px solid #ddd;
-		background-color: #efefef;
-		z-index: 100;
-	}
-	.active {
-		left: 0px;
-		width: 100%;
 	}
 </style>

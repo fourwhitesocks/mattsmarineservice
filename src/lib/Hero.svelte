@@ -1,8 +1,4 @@
 <script>
-	//import { toggle_class } from 'svelte/internal';     this magically appeared
-
-	//import Header from '../../incorrectly-named-bu/header.svelte';
-	import Nav from '$lib/Nav.svelte';
 </script>
 
 <!-- Hero rm 7xl in first div-->

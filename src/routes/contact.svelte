@@ -12,8 +12,16 @@
 </script>
 
 <svelte:head>
-	<!--alows head info on each page-->
 	<title>Matts Marine Services | Monroe, Mi | Contact</title>
+	<meta
+		name="description"
+		content="Yacht deliveries and professional captaining services.  Sailboat and powerboat upgrades and repairs serving the Great Lakes.  Questions?  734-536-1076"
+	/>
+	<meta
+		name="robots"
+		content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+	/>
+	<link rel="canonical" href="#" />
 </svelte:head>
 
 <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center">

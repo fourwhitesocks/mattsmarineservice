@@ -1,6 +1,7 @@
 <!--see how it's in order the nav is before the slot or pg components-->
 <script>
 	//import Header from '../components/header.svelte';
+
 	import Nav from '$lib/Nav.svelte';
 	import Footer from '$lib/Footer.svelte';
 	import '../tailwind.css';
