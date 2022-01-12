@@ -1,18 +1,22 @@
 module.exports = {
-	mode: 'jit',
-	purge: ['./src/**/*.svelte'],
-	darkMode: false, // or 'media' or 'class'
-	theme: {
-		extend: {
-			fontFamily:{
-				'heading': ['Playfair' , 'sans-serif']
-			}
+	
+	content: [  
+		
+	'./src/**/*.svelte',
+	'./src/**/*.html',
+	
+],
+
+
+theme: {
+	extend: {
+		fontFamily:{
+			'heading': ['Playfair' , 'sans-serif']
 		}
-	},
-	variants: {
-		extend: {}
-	},
-	plugins: [
-		require('@tailwindcss/forms'),
-	],
+	}
+},
+
+plugins: [
+	require('@tailwindcss/forms'),
+]
 };
