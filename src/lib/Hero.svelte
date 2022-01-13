@@ -3,7 +3,7 @@
 
 <!-- Hero rm 7xl in first div-->
 <section>
-	<div class="relative bg-white overflow-hidden">
+	<div class="relative bg-white overflow-hidden max-w-screen-2xl mx-auto">
 		<div class="mx-auto">
 			<div
 				class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
