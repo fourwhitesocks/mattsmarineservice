@@ -3,6 +3,12 @@
 
 @tailwind components;
 
+@layer components {
+	.btn-spl {
+	  @apply px-4 py-2 font-medium tracking-wide rounded-md bg-blue-400 text-white shadow-sm;
+	}
+}
+
 @tailwind utilities;
 
 html {
@@ -120,11 +126,13 @@ p {
 	line-height: 1.5;
 }
 
-/*
-a {
-	color: var(--primary-color);
-	text-decoration: none;
-} */
+ h2, h3, hr {
+    --flow-spacer: 1.5em;
+}
+
+.flow>*+* {
+    margin-top: var(--flow-spacer,.75em);
+}
 
 .footer {
 	color: var(--primary-color);

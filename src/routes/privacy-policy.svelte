@@ -1,10 +1,10 @@
 <div class="bg-graphic">
-	<div class="w-full  pt-12 max-w-6xl mx-auto pb-32 bg-graphic">
+	<div class="w-full  mt-12 max-w-5xl pl-6 pr-6 mx-auto mb-32 flow">
 		<h1 class="text-5xl tracking-tight font-extrabold text-blue-900 sm:text-5xl md:text-6xl">
 			PRIVACY POLICY
 		</h1>
 
-		<h2 class="pt-10 text-4xl text-bold tracking-tight font-extrabold text-blue-900">
+		<h2 class=" text-4xl text-bold tracking-tight font-extrabold text-blue-900">
 			Who we are and Privacy Policy Overview
 		</h2>
 
@@ -30,9 +30,9 @@
 			information may be requested.
 		</p>
 
-		<h3 class="pt-10 text-3xl text-bold tracking-tight font-extrabold text-blue-900">
+		<h2 class=" text-3xl text-bold tracking-tight font-extrabold text-blue-900">
 			Changes to our Privacy Policy
-		</h3>
+		</h2>
 
 		<p
 			class="text-base text-gray-500 mt-3 sm:mt-5 sm:text-lg sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
@@ -42,9 +42,9 @@
 			better serve your needs. Upon changes, a revised Privacy Policy will be posted on this Site.
 		</p>
 
-		<h3 class="pt-10 text-3xl text-bold tracking-tight font-extrabold text-blue-900">
+		<h2 class=" text-3xl text-bold tracking-tight font-extrabold text-blue-900">
 			Purposes of data processing
-		</h3>
+		</h2>
 
 		<p
 			class="text-base text-gray-500 mt-3 sm:mt-5 sm:text-lg sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
@@ -70,7 +70,7 @@
 			We make sure we only use your information for the purposes you have given us permission for.
 		</p>
 
-		<h2 class="pt-10 text-4xl text-bold tracking-tight font-extrabold text-blue-900">
+		<h2 class=" text-4xl text-bold tracking-tight font-extrabold text-blue-900">
 			What personal data we collect and why we collect it
 		</h2>
 
@@ -80,21 +80,21 @@
 			third-parties for the following reasons:
 		</p>
 
-		<h3 class="pt-10 text-3xl text-bold tracking-tight font-extrabold text-blue-900">Comments</h3>
+		<h3 class=" text-3xl text-bold tracking-tight font-extrabold text-blue-900">Comments</h3>
 
 		<p
 			class="text-base text-gray-500 mt-3 sm:mt-5 sm:text-lg sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
 			Currently we have no commenting on this web site.
 		</p>
 
-		<h3 class="pt-10 text-3xl text-bold tracking-tight font-extrabold text-blue-900">Media</h3>
+		<h3 class=" text-3xl text-bold tracking-tight font-extrabold text-blue-900">Media</h3>
 
 		<p
 			class="text-base text-gray-500 mt-3 sm:mt-5 sm:text-lg sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
 			Currently we have no image uploading by visitors on this web site.
 		</p>
 
-		<h3 class="pt-10 text-3xl text-bold tracking-tight font-extrabold text-blue-900">
+		<h3 class=" text-3xl text-bold tracking-tight font-extrabold text-blue-900">
 			Contact forms, communication and support
 		</h3>
 
@@ -105,7 +105,7 @@
 			our database.
 		</p>
 
-		<h3 class="pt-10 text-3xl text-bold tracking-tight font-extrabold text-blue-900">
+		<h3 class=" text-3xl text-bold tracking-tight font-extrabold text-blue-900">
 			Automated information
 		</h3>
 
@@ -116,16 +116,14 @@
 			our Site and systems.
 		</p>
 
-		<h3 class="pt-10 text-3xl text-bold tracking-tight font-extrabold text-blue-900">
-			Analytics Tools
-		</h3>
+		<h3 class=" text-3xl text-bold tracking-tight font-extrabold text-blue-900">Analytics Tools</h3>
 
 		<p
 			class="text-base text-gray-500 mt-3 sm:mt-5 sm:text-lg sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
 			To improve services on our Site.
 		</p>
 
-		<h3 class="pt-10 text-3xl text-bold tracking-tight font-extrabold text-blue-900">
+		<h3 class=" text-3xl text-bold tracking-tight font-extrabold text-blue-900">
 			Information Logs
 		</h3>
 
@@ -134,7 +132,7 @@
 			For diagnosing problems, administering our site and resolving issues.
 		</p>
 
-		<h3 class="pt-10 text-3xl text-bold tracking-tight font-extrabold text-blue-900">
+		<h3 class=" text-3xl text-bold tracking-tight font-extrabold text-blue-900">
 			Other Information
 		</h3>
 
@@ -144,11 +142,11 @@
 			characteristics that could help us optimize and improve our and services.
 		</p>
 
-		<h3 class="pt-10 text-3xl text-bold tracking-tight font-extrabold text-blue-900 pb-8">
+		<h3 class=" text-3xl text-bold tracking-tight font-extrabold text-blue-900">
 			Hosting, Storage, and Other Infrastructure
 		</h3>
 
-		<h3 class="pt-10 text-3xl text-bold tracking-tight font-extrabold text-blue-900">Security</h3>
+		<h3 class=" text-3xl text-bold tracking-tight font-extrabold text-blue-900">Security</h3>
 
 		<p
 			class="text-base text-gray-500 mt-3 sm:mt-5 sm:text-lg sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
@@ -156,7 +154,7 @@
 			Users may also share links to your content on social media
 		</p>
 
-		<h2 class="pt-10 text-4xl text-bold tracking-tight font-extrabold text-blue-900">
+		<h2 class=" text-4xl text-bold tracking-tight font-extrabold text-blue-900">
 			We do not collect
 		</h2>
 
@@ -165,7 +163,7 @@
 			Our site does not make money from ads. So we don’t collect data in order to advertise to you.
 		</p>
 
-		<h3 class="pt-10 text-3xl text-bold tracking-tight font-extrabold text-blue-900">Cookies</h3>
+		<h3 class=" text-3xl text-bold tracking-tight font-extrabold text-blue-900">Cookies</h3>
 
 		<p
 			class="text-base text-gray-500 mt-3 sm:mt-5 sm:text-lg sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
@@ -189,6 +187,7 @@
 			found&nbsp;<a
 				href="http://www.allaboutcookies.org/manage-cookies/"
 				target="_blank"
+				class="link link-underline link-underline-lite font-bold"
 				rel="noreferrer noopener">here.</a>
 		</p>
 
@@ -207,10 +206,11 @@
 			<a
 				href="https://policies.google.com/technologies/cookies"
 				target="_blank"
+				class="link link-underline link-underline-lite font-bold"
 				rel="noreferrer noopener">Learn more about Cookies here.</a>
 		</p>
 
-		<h3 class="pt-10 text-3xl text-bold tracking-tight font-extrabold text-blue-900">
+		<h3 class=" text-3xl text-bold tracking-tight font-extrabold text-blue-900">
 			Embedded content from other websites
 		</h3>
 
@@ -239,9 +239,9 @@
 			with the embedded content if you have an account and are logged in to that website.
 		</p>
 
-		<h3 class="pt-10 text-3xl text-bold tracking-tight font-extrabold text-blue-900">
+		<h2 class=" text-3xl text-bold tracking-tight font-extrabold text-blue-900">
 			How we share your personal information and who we share it with
-		</h3>
+		</h2>
 
 		<p
 			class="text-base text-gray-500 mt-3 sm:mt-5 sm:text-lg sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
@@ -280,7 +280,7 @@
 			Information Logs &#8211; for diagnosing problems, administering our Site and resolving issues.
 		</p>
 
-		<h2 class="pt-10 text-4xl text-bold tracking-tight font-extrabold text-blue-900">
+		<h2 class=" text-4xl text-bold tracking-tight font-extrabold text-blue-900">
 			How long we retain your data
 		</h2>
 
@@ -291,7 +291,7 @@
 			contact forms.
 		</p>
 
-		<h2 class="pt-10 text-4xl text-bold tracking-tight font-extrabold text-blue-900">
+		<h2 class=" text-4xl text-bold tracking-tight font-extrabold text-blue-900">
 			What rights you have over your data
 		</h2>
 
@@ -303,7 +303,7 @@
 			then there was no information to report.
 		</p>
 
-		<h2 class="pt-10 text-4xl text-bold tracking-tight font-extrabold text-blue-900">
+		<h2 class=" text-4xl text-bold tracking-tight font-extrabold text-blue-900">
 			Where we send your data
 		</h2>
 
@@ -318,9 +318,9 @@
 			disclosing personal information to you.
 		</p>
 
-		<h3 class="pt-10 text-3xl text-bold tracking-tight font-extrabold text-blue-900">
+		<h2 class=" text-3xl text-bold tracking-tight font-extrabold text-blue-900">
 			How we protect your data / our security
-		</h3>
+		</h2>
 
 		<p />
 
@@ -349,7 +349,7 @@
 			information that you transfer over the Internet to us.
 		</p>
 
-		<h3 class="pt-10 text-3xl text-bold tracking-tight font-extrabold text-blue-900">
+		<h3 class=" text-3xl text-bold tracking-tight font-extrabold text-blue-900">
 			What data breach procedures we have in place
 		</h3>
 
@@ -359,7 +359,7 @@
 			hours.
 		</p>
 
-		<h3 class="pt-10 text-3xl text-bold tracking-tight font-extrabold text-blue-900">
+		<h3 class=" text-3xl text-bold tracking-tight font-extrabold text-blue-900">
 			What third parties we receive data from
 		</h3>
 
@@ -400,7 +400,7 @@
 			and Technologies, that are located in the territory of the European Union and United States.
 		</p>
 
-		<h3 class="pt-10 text-3xl text-bold tracking-tight font-extrabold text-blue-900">Consent</h3>
+		<h3 class=" text-3xl text-bold tracking-tight font-extrabold text-blue-900">Consent</h3>
 
 		<p
 			class="text-base text-gray-500 mt-3 sm:mt-5 sm:text-lg sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
@@ -419,7 +419,7 @@
 			this Privacy Policy
 		</p>
 
-		<hr class="mt-10" />
+		<hr class="flow" />
 
 		<p
 			class="text-base text-gray-500 mt-3 sm:mt-5 sm:text-lg sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
@@ -427,7 +427,9 @@
 		</p>
 
 		<p class="text-base text-gray-500 sm:mt-5 sm:text-lg sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-			<a href="https://mattsmarinesupply.com/contact/">Contact</a>
+			<a
+				href="https://mattsmarinesupply.com/contact/"
+				class="link link-underline link-underline-lite font-bold">Contact</a>
 		</p>
 	</div>
 </div>
