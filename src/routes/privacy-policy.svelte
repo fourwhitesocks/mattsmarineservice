@@ -1,3 +1,7 @@
+<script>
+	import { fly } from 'svelte/transition';
+</script>
+
 <div class="bg-graphic">
 	<div class="w-full  mt-12 max-w-5xl pl-6 pr-6 mx-auto mb-32 flow">
 		<h1 class="text-5xl tracking-tight font-extrabold text-blue-900 sm:text-5xl md:text-6xl">
@@ -216,27 +220,7 @@
 
 		<p
 			class="text-base text-gray-500 mt-3 sm:mt-5 sm:text-lg sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-			Some of the content that you see displayed on this site is not hosted by our site. These
-			“embeds” are hosted by a third-party and embedded in our site. For example: YouTube or Vimeo
-			videos,that appear within our site content, or future content. These files send data to the
-			hosted site just as if you were visiting that site directly (for example, when you load a
-			mattsmarinesupply.com page with a YouTube video embedded in it, YouTube receives data about
-			your activity). Our site does not control what data third parties collect in cases like this,
-			or what they will do with it. So, third-party embeds on our site are not covered by this
-			privacy policy. They are covered by the privacy policy of the third-party service.
-		</p>
-
-		<p
-			class="text-base text-gray-500 mt-3 sm:mt-5 sm:text-lg sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-			Some embeds may ask you for personal information, such as your email address, through a form.
-			As explained above, their actions are not covered by this Privacy Policy.
-		</p>
-
-		<p
-			class="text-base text-gray-500 mt-3 sm:mt-5 sm:text-lg sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-			These websites may collect data about you, use cookies, embed additional third-party tracking,
-			and monitor your interaction with that embedded content, including tracing your interaction
-			with the embedded content if you have an account and are logged in to that website.
+			Currently we have no embedded content from other websites
 		</p>
 
 		<h2 class=" text-3xl text-bold tracking-tight font-extrabold text-blue-900">

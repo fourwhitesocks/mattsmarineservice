@@ -89,6 +89,19 @@
 						</p>
 					</form>
 				</div>
+				<p class="text-base text-gray-500 mt-16 sm:text-lg sm:max-w-xl md:text-xl lg:mx-0">
+					<span class="text-blue-900 font-bold pr-3">Phone:</span>
+					<a href="tel:7345361076" class="link link-underline link-underline-lite">734-536-1076</a>
+				</p>
+				<p class="text-base text-gray-500 mt-8 sm:text-lg sm:max-w-xl md:text-xl lg:mx-0">
+					<span class="text-blue-900 font-bold pr-3">Email:</span>
+					<a
+						href="mailto:matt@mattsmarineservice.com"
+						class="link link-underline link-underline-lite">matt@mattsmarineservice.com</a>
+				</p>
+				<p class="text-base text-gray-500 mt-8 sm:text-lg sm:max-w-xl md:text-xl lg:mx-0">
+					<span class="text-blue-900 font-bold pr-3">Address:</span> PO Box 1204, Trenton, Mi 48183
+				</p>
 			</section>
 		</div>
 	</div>
@@ -98,6 +111,6 @@
 	.bg-graphic {
 		background-image: url('/bottom-wave.svg');
 		background-repeat: no-repeat;
-		background-position: 50% 123%;
+		background-position: 50% 115%;
 	}
 </style>
