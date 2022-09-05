@@ -19,7 +19,7 @@
 	<meta
 		name="robots"
 		content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-	<link rel="canonical" href="https://mattsmarineservice.netlify.app/" />
+	<link rel="canonical" href="https://mattsmarineservice.com/" />
 </svelte:head>
 
 <div class="bg-graphic">
@@ -33,7 +33,7 @@
 			<div class="flex items-center pt-8">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
-					class="h-10 w-10 mr-4"
+					class="h-14 w-14 mr-4"
 					viewBox="0 0 20 20"
 					fill="#2e3191">
 					<path
@@ -57,7 +57,7 @@
 						<input type="hidden" name="form-name" value="contact" />
 						<!-- <input type="text" name="bot-field" /> -->
 
-						<p class="pt-8 block">
+						<p class="md:pt-4 block">
 							<label
 								>Your Name: <input
 									type="text"
@@ -65,7 +65,7 @@
 									class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
 									placeholder="" /></label>
 						</p>
-						<p class="pt-8 block">
+						<p class="md:pt-4 block">
 							<label
 								>Your Email: <input
 									type="email"
@@ -74,14 +74,14 @@
 									placeholder="email"
 									required /></label>
 						</p>
-						<p class="pt-8 block">
+						<p class="md:pt-4 block">
 							<label
 								>Message: <textarea
 									name="message"
 									class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
 									placeholder="" /></label>
 						</p>
-						<p class="pt-8 block">
+						<p class="md:pt-4 block">
 							<button
 								type="submit"
 								class="py-2 px-3 text-white bg-blue-900 hover:bg-blue-800 hover:no-underline rounded transition duration-300"
@@ -99,7 +99,7 @@
 						href="mailto:matt@mattsmarineservice.com"
 						class="link link-underline link-underline-lite">matt@mattsmarineservice.com</a>
 				</p>
-				<p class="text-base text-gray-500 mt-8 sm:text-lg sm:max-w-xl md:text-xl lg:mx-0">
+				<p class="text-base text-gray-500 mt-8 mb-16  sm:text-lg sm:max-w-xl md:text-xl lg:mx-0">
 					<span class="text-blue-900 font-bold pr-3">Address:</span> PO Box 1204, Trenton, Mi 48183
 				</p>
 			</section>

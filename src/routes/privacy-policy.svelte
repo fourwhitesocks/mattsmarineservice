@@ -1,6 +1,6 @@
-<script>
+<!-- <script>
 	import { fly } from 'svelte/transition';
-</script>
+</script> -->
 
 <div class="bg-graphic">
 	<div class="w-full  mt-12 max-w-5xl pl-6 pr-6 mx-auto mb-32 flow">
