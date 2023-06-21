@@ -65,8 +65,6 @@
 			<li class="text-4xl bold pb-6">Electronics Installation</li>
 			<li class="text-4xl bold pb-6">Electrical System Service</li>
 			<li class="text-4xl bold pb-6">Corrosion Survey & Mitigation</li>
-
-			<li class="text-4xl bold pb-6">Plumbing System Service</li>
 		</ul>
 		<div class="flex justify-center">
 			<!-- two blue boats svg begin -->
